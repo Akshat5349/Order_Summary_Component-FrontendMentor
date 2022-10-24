@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+
+body {
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  display:flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.Card {
+  margin:  1em 1em;
+  max-width: 425px;
+  border-radius: 24px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: -2px 4px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+#orderIllustration {
+  background-position: center; background-size: cover;
+  background-image: url(./images/illustration-hero.svg);
+}
+
+.illustration {
+  width: 100%;
+  height: 220px;
+}
+
+.Card-Content {
+  text-align: center;
+  padding: 32px;
+}
+
+.Card-Content h2 {
+  font-weight: bold;
+  color: hsl(223, 47%, 23%);
+  font-size: 1.7em;
+  letter-spacing: .05em;
+  margin-bottom: .4em;
+}
+
+.Card-Content #CardInfo p,
+.subtext {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+  font-size: 1em;
+}
+
+#CardInfo {
+  padding-bottom: 1.4em;
+}
+
+.engraved {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 8px;
+  padding: 12px 18px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.planName {
+  flex-basis: 1;
+}
+
+#plandetails {
+  text-align: left;
+  flex: 1;
+  padding-left: 18px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+#musicIcon {
+  background-image: url("./images/icon-music.svg");
+}
+
+#planChange a:visited,
+a {
+  color: hsl(245, 75%, 52%);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#planChange a:hover {
+  color: hsl(245, 75%, 70%);
+  text-decoration: none;
+}
+
+#proceed {
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+}
+
+#proceed:hover {
+  background-color: hsl(245, 75%, 70%);
+}
+
+.btn {
+  padding: 16px;
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
+  border-radius: 8px;
+  margin-top: 1.4em;
+}
+#cancel{color:hsl(224, 23%, 55%);}#cancel:hover{color: hsl(223, 47%, 23%);}
